@@ -1,0 +1,89 @@
+/* General */
+body {
+    font-family: "Inconsolata", monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #e9e5cd;
+}
+
+header {
+    background-color: #75420e;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.5s;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+    scale: 1.15;
+    display: inline-block;
+}
+
+main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: auto;
+}
+
+section {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background-color:#e0e0d8;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form input, form textarea, form button {
+    width: calc(100% - 20px);
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #80b9ba;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #75420e;
+    color: white;
+}
+
+img {
+    width: 150px;
+    height: auto;
+    border-radius: 12%;
+}
+
+.title {
+    font-family: "Concert One", serif;
+}
